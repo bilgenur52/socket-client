@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="clientnew.MainPage">
+
+    <StackLayout>
+        <Button Text="socket reussi" Clicked="essai_a">    </Button>
+        <Button Text="socket 2" Clicked="essai_b"></Button>
+        <Label x:Name="message_server" Text="message recu" ></Label>
+    </StackLayout>
+
+</ContentPage>
